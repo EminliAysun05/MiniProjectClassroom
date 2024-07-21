@@ -1,1 +1,1 @@
-[{"Id":0,"Name":"PB303","Students":[{"Surname":"Eminli","Id":1,"ClassId":0,"Name":"Aysun"}],"Type":15,"Limit":15},{"Id":1,"Name":"AY903","Students":[{"Surname":"Ehmedova","Id":2,"ClassId":1,"Name":"Lale"},{"Surname":"Eminli","Id":7,"ClassId":1,"Name":"Aysun"}],"Type":20,"Limit":20},{"Id":2,"Name":"TB405","Students":[],"Type":20,"Limit":20},{"Id":3,"Name":"AY709","Students":[],"Type":15,"Limit":15},{"Id":4,"Name":"PB505","Students":[],"Type":15,"Limit":15},{"Id":5,"Name":"AY743","Students":[],"Type":15,"Limit":15}]
+[{"Id":0,"Name":"AP908","Students":[],"Type":20,"Limit":20}]
