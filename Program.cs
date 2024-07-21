@@ -140,13 +140,24 @@ internal class Program
                 here:
 
                     Console.WriteLine();
+                   name:
                     Console.WriteLine("Please, enter student name: ");
                     string studentName = Console.ReadLine();
 
                     Console.WriteLine("Please, enter student surname: ");
                     string studentSurname = Console.ReadLine();
-
-                    if (studentName.IsValidNameSurName())
+                    foreach (var classroom in classrooms)
+                    {
+                        foreach(var s in classroom.Students)
+                        {
+                            if(s.Name == studentName && s.Surname == studentSurname)
+                            {
+                                Console.WriteLine("Eyni ad ve soyadli student yaratmaq olmaz");
+                                goto name;
+                            }
+                        }
+                    }
+                   if (studentName.IsValidNameSurName())
                     {
                         Console.WriteLine(studentName);
                     }
