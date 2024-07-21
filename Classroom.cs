@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiniProjectClassroom
 {
-    public class Classroom
+    public  class Classroom
     {
         //        Id oz-oz luyunde artacaq+
         //Name+
@@ -77,8 +77,8 @@ namespace MiniProjectClassroom
             //return null;
 
         }
-
-        public void Delete(int id)
+        
+        public  void Delete(int id)
         {
             Student student = FindId(id);
 
